@@ -31,3 +31,39 @@ code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
 }
+h1 { 
+    color : #330066;
+}  
+h2 {
+    
+        margin-top: 2em; /* Približno dvakrat več kot običajna višina črke */
+        border-top: 1px solid #AAAAAA; /* 1px širok, enobarven (solid) siv rob */
+        border-top: #AAAAAA;
+        border-top: solid;
+        padding-top: 0.5em; /* Notranji prazen prostor nad besedilom */
+    }
+    #uvod {
+        padding: 2em; /* Dodamo 2em prostora na vseh straneh znotraj elementa */
+        background-color: rgba(51, 0, 102, 0.1); /* Določimo prosojno vijolično ozadje */
+    }
+    
+.Slika {
+    font-size: 0.9em;
+    width: 40%;
+    float: right;
+    margin-left: 2em;
+}
+
+.Slika img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Slika p:last-child {
+    font-size: 0.8em;
+}
+
+.Slika p:last-child ::before {
+    content: "→ ";
+}
