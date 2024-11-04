@@ -23,6 +23,7 @@ body {
     max-width: 40em;
     margin: auto;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 .hec {
@@ -35,12 +36,19 @@ body {
     font-size: 1.7em;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 blockquote {
     font-size: 0.8em;
     width: 50%;
     float: right;
     margin-right: 2em;
     padding: 1em;
+    background-color: rgba(51, 81, 126, 0.2);
+    border: 1px solid rgb(51, 81, 126);
 }
 blockquote p {
     font-style: italic;
